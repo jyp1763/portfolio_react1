@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    background: #F01BA9;
+    padding: 15px 0;
+    font-family: "roboto slab", serif;
+    width: 100%
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a:hover{
+    color: black
+}
+
+.menu-btn{
+    color: #fff;
+    font-size:  23px;
+    cursor: pointer;
+    display: none;
+}
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.Home{
+    display: flex;
+    background-color: black;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: "roboto slab", serif;
+    text-align: center;
+    justify-content: center;
+    text-emphasis-position: relative;
+}
+.home-img{
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    object-fit: scale-down;
+}
+section{
+    padding: 100px 0;
+}
+.about{
+    font-family: "roboto slab", serif;
+    background-color: pink;
+    color: #fff;
+}
+.about .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: "roboto slab", serif;
+}
+.about .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: black;
+    transform: translateX(-50%);
+}
+.about .about-content,
+.contact .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.about .about-content .right{
+    max-width: 55%;
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+.about .about-content .right p{
+    text-align: justify;
+}
+
+.work{
+    background: black;
+}
+.work .title{
+    color: pink;
+    font-family: "roboto slab", serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+.subtitle{
+    font-size: 15px;
+    text-align: center;
+    color: pink;
+    font-weight: 100;
+    margin-bottom: 9px;
+}
+.work-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    overflow: hidden;
+}
+.work-item{
+    background: var(--clr-accent);
+    transform: 750ms cubic-bezier(.5 ,0, .5, 1);
+    opacity:250ms linear ;
+    overflow: hidden;
+}
+.work-item:hover{
+    transform: scale(1.2);
+    opacity: .75;
+    overflow: hidden;
+}
+
+.skills{
+    background: pink;
+}
+.skills .title{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "roboto slab", serif;
+    text-align: center;
+    margin-bottom: 9px;
+    color: #fff;
+}
+.skills .text{
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "roboto slab", serif;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #fff;
+}
+.skills-list{
+    font-size: 25px;
+    font-family: "roboto slab", serif;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.contact{
+    font-family: "roboto slab", serif;
+    text-align: center;
+    color: pink;
+    background: black;
+    display: list-item;
+}
+.contact .row{
+    font-family: "roboto slab", serif;
+    font-size: 25px;
+    background: black;
+    color: pink;
+    text-align: center;
+}
+@media (max-width: 991px){
+    .max-width{
+        padding: 0 50px;
+    }
+}

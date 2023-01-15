@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.google.com/share?selection.family=Inter:wght@200%7CRoboto%20Slab:wght@500');
+
+@layer base {
+    body {
+        @apply font-[sans];
+
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
