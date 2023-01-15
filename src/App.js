@@ -4,6 +4,7 @@ import About from "./components/About";
 import Work from "./components/Work";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import { Routes, Route} from "react-router-dom";
 
 
@@ -19,12 +20,13 @@ function App() {
         <Route path="/skills" element={<Skills/>} />
         <Route path="/contact" element={<Contact/>} />
       </Routes>
+    
       <Home />
       <About />
       <Work />
       <Skills />
       <Contact />
-    
+      <Footer />
     </div>
   );
 }

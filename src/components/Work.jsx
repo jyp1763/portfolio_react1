@@ -3,7 +3,7 @@ import React from 'react'
 const Work = () => {
   return (
     <div name='work' className='w-full md:h-screen text-white bg-[black]'>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div className='max-width mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text text-4xl font-bold inline border-b-4 text-white border-[#F01BA9]'>
                     Work
@@ -11,7 +11,7 @@ const Work = () => {
                 <p className='py-6'>Check out my work</p>
             </div>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 text-white'>
-                <img src='/Users/jatannapatterson/reactportfolio/src/assets/fifthimage.jpg' alt='DEAR-Reader'></img>
+                <img src='src/assets/portfolio-cover-1-19868543.jpeg' alt='DEAR-Reader'></img>
                 <a href='https://github.com/LizBailey75/DEAR-Reader'></a> <a href='https://dear-reader-22-app.herokuapp.com/'></a>
 
                 <img src='/Users/jatannapatterson/reactportfolio/src/assets/firstimage.jpg' alt='Workday scheduler'></img>

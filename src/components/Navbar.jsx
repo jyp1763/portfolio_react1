@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#F01BA9] text-black'>
         <div>
-            <ul className='flex'>
+            <ul className='flex hover:bg-[#F01BA9] hover: border-white'>
                 <li>
                   <a href='/'>Home</a>
                 </li>
