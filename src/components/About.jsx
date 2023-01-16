@@ -18,7 +18,7 @@ const About = () => {
             </div>
         </div>
         <div className='max-width bg-[black] text-white'></div>
-        <img src= {profile} alt='image of jatanna'></img>
+        <img className='max-w-xs max-h-40' src= {profile} alt='image of jatanna'></img>
         <p className='max-width bg-[black] text-white'>
             I am just starting out in my developer career but I am excited to share my work with you! I enjoy building and designing full stack applications
             My projects are user friendly and easy to navigate. In this portfolio you will see a variety of my projects,as well as an option to contact me!
