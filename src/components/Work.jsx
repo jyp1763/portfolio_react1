@@ -8,17 +8,17 @@ import sixth from '../assets/sixthimage.PNG';
 
 const Work = () => {
   return (
-    <div name='work' className='max-width md:h-screen text-white bg-[black]'>
-        <div className='max-width mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div name='work' className='max-w-[1140px] m-auto w-full px-4 py-16 md:h-screen text-white bg-[black]'>
+        <div className='max-w-[1140px] mx-auto grid-cols-6 p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text text-4xl font-bold inline border-b-4 text-white border-[#F01BA9]'>
                     Work
                 </p>
                 <p className='py-6'>Check out my work</p>
             </div>
-            <div className='grid h-0 grid-auto-flow sm:grid-cols-2 md:grid-cols-3 gap-4 text-white grid-cols-1 col-gap:5px 
+            <div className='grid h-0 w-4 py-3 items-center grid-flow-col sm:grid-cols-2 md:grid-cols-3 gap-4 text-white grid-cols-1 col-gap:5px 
             '>
-                <img className='max-w-xs max-h-20' src={fifth} alt='DEAR-Reader'></img>
+                <img className='max-w-xs max-h-20 ' src={fifth} alt='DEAR-Reader'></img>
                 <a href='https://github.com/LizBailey75/DEAR-Reader'></a> <a href='https://dear-reader-22-app.herokuapp.com/'></a>
                 
                 <img className='max-w-xs max-h-20' src={first} alt='Workday scheduler'></img>
